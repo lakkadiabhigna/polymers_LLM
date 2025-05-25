@@ -1,0 +1,88 @@
+.predict-background {
+  background-image: url("C:\Users\GCET\Desktop\Polymers-App\polymer-llm-ui\public\pic-2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.predict-glass {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-radius: 20px;
+  padding: 2.5rem;
+  width: 90%;
+  max-width: 520px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  color: white;
+  text-align: center;
+}
+
+.predict-glass h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0.75rem;
+  font-family: cursive;
+}
+
+.predict-glass p {
+  font-style: italic;
+  margin-bottom: 1.25rem;
+}
+
+.predict-glass input {
+  width: 100%;
+  padding: 0.9rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.5);
+  color: #000;
+  font-size: 1rem;
+  outline: none;
+}
+
+.predict-glass button {
+  background-color: #792b99;
+  color: white;
+  padding: 0.9rem;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.predict-glass button:hover {
+  background-color: #682084;
+}
+
+.response {
+  margin-top: 1rem;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 0.75rem;
+  border-radius: 10px;
+  color: white;
+}
+
+.error {
+  margin-top: 1rem;
+  color: #ffcccc;
+}

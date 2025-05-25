@@ -1,0 +1,25 @@
+.about-page {
+  padding: 40px;
+  max-width: 800px;
+  margin: auto;
+  font-family: sans-serif;
+  line-height: 1.6;
+}
+
+.about-page h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.go-back-button {
+  margin-top: 30px;
+  padding: 10px 20px;
+  background-color: #1e88e5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.go-back-button:hover {
+  background-color: #1565c0;
+}

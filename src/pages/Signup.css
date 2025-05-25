@@ -1,0 +1,97 @@
+.signup-container {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('C:\Users\GCET\Desktop\Polymers-App\polymer-llm-ui\public\pic-4.png') no-repeat center center;
+  background-size: cover;
+  padding: 1rem;
+}
+
+.signup-container::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  /* background-color: rgba(0, 0, 0, 0.6); dark overlay */
+  z-index: 0;
+}
+
+.signup-form {
+  position: relative;
+  z-index: 1;
+  background: rgba(26, 26, 26, 0.85);
+  color: #f0f0f0;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
+  width: 100%;
+  max-width: 360px;
+}
+
+.signup-heading {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: #ffffff;
+}
+
+.signup-label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+.signup-input {
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+  border: 1px solid #555;
+  font-size: 1rem;
+  box-sizing: border-box;
+  background: #333;
+  color: #eee;
+}
+
+.signup-input::placeholder {
+  color: #bbb;
+}
+
+.signup-button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #28a745;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.signup-error {
+  margin-bottom: 1rem;
+  color: #ff6b6b;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.redirect-text {
+  margin-top: 15px;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.redirect-link {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.redirect-link:hover {
+  text-decoration: underline;
+}
