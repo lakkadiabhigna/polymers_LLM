@@ -14,7 +14,7 @@ The steps for realizing this project would include:
 4) Develop test cases for verifying the LLM.
 5) Develop a MERN-stack based UI to implement the above test cases.
 
-To bring this vision to life, we fine-tuned a pre-trained Large Language Model (LLM) using a carefully curated dataset of polymers and their glass transition temperatures (Tg). The objective was to enable the model to predict Tg values when given a polymer name or suggest suitable polymer alternatives with similar thermal behavior. The model learns from text-based data, allowing it to process material science information in a language-like format.
+To bring this vision to life, we fine-tuned a pre-trained Large Language Model (LLM) using a carefully curated dataset of polymers and their glass transition temperatures (Tg). The objective was to enable the model to predict Tg values when given a polymer name. The model learns from text-based data, allowing it to process material science information in a language-like format.
 
 Once the model was fine-tuned and validated, we built a MERN-stack (MongoDB, Express.js, React.js, Node.js) based web interface to allow easy interaction. Through this UI, users can enter a polymer name and instantly receive its predicted Tg value or a recommendation for another polymer with comparable properties. This integration provides a smooth pipeline from AI-based material understanding to practical, usable insights.
 
